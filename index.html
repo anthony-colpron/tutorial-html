@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="styling/styles.css">
+
+    
+    </head>   
+
+    <body>
+        
+        <div>
+            
+            <p>
+                <img src="https://i.imgur.com/PYpZoXc.jpg" /><br>
+                Hello! My tutorial! <br>
+            
+            Be happy.
+            
+                
+            </p>
+            
+            
+            <a href="www.google.ca">Go to Google</a>
+            
+            <p id="helloText">????</p>
+            <button id="myButton">PRESS</button>
+            
+        </div>
+        
+         <div class="link-sections">
+            <p>
+                Hello! My tutorial! <br>
+            
+            Be happy.<br>
+            
+            Link to github
+                <a href="www.github.com">Go to Github</a>
+            </p>
+            
+            
+            
+            
+        </div>
+        
+    
+    <script>
+        var text = document.getElementById("helloText")
+        var button = document.getElementById("myButton")
+        
+       button.addEventListener('click', changeIt, false);
+        
+        
+        function changeIt() {
+            
+            text.textContent = "Hello world!";
+        }
+        
+        
+    </script>
+    
+        
+    </body>
+    
+    
+    
+    
+</html>

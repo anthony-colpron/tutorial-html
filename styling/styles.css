@@ -1,0 +1,47 @@
+
+        p {
+            color : red;
+            font-size: 24px;
+           
+            padding: 20px;
+            
+        }
+        
+        a {
+           text-transform: uppercase;
+           color: orange;
+        }
+        
+        div {
+            text-align: center;
+            
+        }
+        
+        .link-sections {
+            
+            text-align: left;
+            background-color: yellow;
+            
+            
+        }
+        
+        .link-sections p {
+            color: brown;
+            font-size: 14px;
+            border: 0px;
+        
+        }
+        
+        .link-sections a {
+         color: black;
+         font-size: 50px;
+         
+            
+        }
+        
+        img {
+            
+            max-width: 300px;
+            max-height: 300px;
+        }
+    
